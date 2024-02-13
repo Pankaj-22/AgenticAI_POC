@@ -14,6 +14,10 @@ print(y)
 z= x * a
 print(z)
 
+test = tf.constant([2,8])
+
+print(test.shape , " and *************************" )
+
 # if tf.config.list_physical_devices('GPU'):
 #   print("TensorFlow **IS** using the GPU")
 # else:
