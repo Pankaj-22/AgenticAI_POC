@@ -1,0 +1,11 @@
+
+resume_summarizer_task:
+    description: >
+      Summarize the resume into a 5 bullet point summary
+    expected_output: >
+      A 5 bullet point summary of the resume
+    agent: resume_summarizer
+    markdown: true
+    tools:
+    - PDFReaderTool
+    output_file: "output/summary.md"
