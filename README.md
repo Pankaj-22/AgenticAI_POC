@@ -9,7 +9,7 @@
 
 
 #Customize Your Project
-
+```
 my_project/
 ├── .gitignore
 ├── knowledge/
@@ -27,20 +27,23 @@ my_project/
         └── config/
             ├── agents.yaml
             └── tasks.yaml
+```
 
 
 
 ##Your project will contain these essential files:
 
-File	Purpose
-agents.yaml	Define your AI agents and their roles
-tasks.yaml	Set up agent tasks and workflows
-.env	Store API keys and environment variables
-main.py	Project entry point and execution flow
-crew.py	Crew orchestration and coordination
-tools/	Directory for custom agent tools
-knowledge/	Directory for knowledge base
-Start by editing agents.yaml and tasks.yaml to define your crew’s behavior.
+##File	Purpose <br>
 
-Keep sensitive information like API keys in .env.
+agents.yaml	 --> Define your AI agents and their roles <br>
+tasks.yaml	 --> Set up agent tasks and workflows <br>
+.env	     --> Store API keys and environment variables <br>
+main.py	     --> Project entry point and execution flow <br>
+crew.py	     --> Crew orchestration and coordination <br>
+tools/	     --> Directory for custom agent tools <br>
+knowledge/	 --> Directory for knowledge base <br>
+
+Start by editing agents.yaml and tasks.yaml to define your crew’s behavior. <br>
+
+***Keep sensitive information like API keys in .env.
 
